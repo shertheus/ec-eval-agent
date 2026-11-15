@@ -1,2 +1,5 @@
 # Preserve generated report bytes (Matplotlib path spacing and CSV CRLF).
 examples/reports/** -whitespace
+
+# Preserve the verified CSV bytes and recognize standard CRLF endings.
+course/demo-input/*.csv -text whitespace=cr-at-eol
