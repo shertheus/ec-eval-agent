@@ -23,3 +23,6 @@ config/*.env
 *.key
 .DS_Store
 validation/
+
+# macOS resource forks
+._*
