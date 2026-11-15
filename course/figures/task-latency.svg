@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="315" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 315" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="315"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-315)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 70,25 L 70,285 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="67.775390625" y="10" style="font-family: Arial Unicode MS; font-size: 8px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,20) scale(1,-1)">0</text>
+			<path d="M 166,25 L 166,285 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="161.55078125" y="10" style="font-family: Arial Unicode MS; font-size: 8px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,20) scale(1,-1)">20</text>
+			<path d="M 262,25 L 262,285 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="257.55078125" y="10" style="font-family: Arial Unicode MS; font-size: 8px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,20) scale(1,-1)">40</text>
+			<path d="M 358,25 L 358,285 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="353.55078125" y="10" style="font-family: Arial Unicode MS; font-size: 8px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,20) scale(1,-1)">60</text>
+			<path d="M 454,25 L 454,285 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="449.55078125" y="10" style="font-family: Arial Unicode MS; font-size: 8px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,20) scale(1,-1)">80</text>
+			<text x="19.245849609375" y="267" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,534) scale(1,-1)">T01</text>
+			<rect x="70" y="267" width="23.601601114869112" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<rect x="70" y="258" width="253.40129690989852" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="19.245849609375" y="242" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,484) scale(1,-1)">T02</text>
+			<rect x="70" y="242" width="26.867953397333622" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<rect x="70" y="233" width="257.44890099316837" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="19.245849609375" y="217" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,434) scale(1,-1)">T03</text>
+			<rect x="70" y="217" width="25.115467303991323" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<rect x="70" y="208" width="235.4052928671241" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="19.245849609375" y="192" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,384) scale(1,-1)">T04</text>
+			<rect x="70" y="192" width="14.947836812585592" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<rect x="70" y="183" width="177.413758007437" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="19.245849609375" y="167" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,334) scale(1,-1)">T05</text>
+			<rect x="70" y="167" width="13.390447434782985" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<rect x="70" y="158" width="204.6815220057964" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="19.245849609375" y="142" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,284) scale(1,-1)">T06</text>
+			<rect x="70" y="142" width="77.33542960658667" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<rect x="70" y="133" width="324.62162145227194" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="19.245849609375" y="117" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,234) scale(1,-1)">T07</text>
+			<rect x="70" y="117" width="16.276151715964076" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<rect x="70" y="108" width="209.6742096528411" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="19.245849609375" y="92" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,184) scale(1,-1)">T08</text>
+			<rect x="70" y="92" width="3.8338511757552567" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<rect x="70" y="83" width="124.88630746453998" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="19.245849609375" y="67" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,134) scale(1,-1)">T09</text>
+			<rect x="70" y="67" width="0.9406737662851867" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<rect x="70" y="58" width="69.29843835309146" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="19.245849609375" y="42" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,84) scale(1,-1)">T10</text>
+			<rect x="70" y="42" width="31.921342319995162" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<rect x="70" y="33" width="233.29830185920002" height="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="98.5" y="302" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,604) scale(1,-1)">固定脚本（灰）</text>
+			<text x="299.48876953125" y="302" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,604) scale(1,-1)">Pi Agent（蓝）</text>
+			<text x="466.0" y="10" style="font-family: Arial Unicode MS; font-size: 8px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,20) scale(1,-1)">秒</text>
+		</g>
+	</g>
+</svg>

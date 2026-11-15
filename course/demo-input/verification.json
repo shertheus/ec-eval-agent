@@ -1,0 +1,24 @@
+{
+  "input_sha256": "8228d50ddfa01b5ca5b9d5a4be75bb901bd6bb9f82fb6bbd22eb4e6ee4a2aea3",
+  "shape": [
+    120,
+    3
+  ],
+  "has_truth": false,
+  "statistics_verified": true,
+  "experiment_id": "exp_f8e67489c7bc44c9",
+  "status": "succeeded",
+  "method": "granger",
+  "params": {
+    "lag": 1,
+    "alpha": 0.05
+  },
+  "seeds": [
+    1
+  ],
+  "device": "cpu",
+  "runtime_seconds": 1.5354723096825182,
+  "edge_count": 2,
+  "recovery_metrics_absent": true,
+  "export_sha256": "1f269b9195b2d5dda5ee6810eca2622f7dc7134c7837486c7d39fd1273801a95"
+}

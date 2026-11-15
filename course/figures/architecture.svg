@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="265" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 265" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="265"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-265)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="203" width="155" height="50" rx="4" ry="4" style="stroke: rgb(65%,72%,78%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,98%); fill-rule: evenodd;"/>
+			<text x="47.5" y="235.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,470) scale(1,-1)">自然语言任务</text>
+			<text x="33.3251953125" y="219.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,438) scale(1,-1)">Pi 与 11 个领域工具</text>
+			<rect x="335" y="203" width="155" height="50" rx="4" ry="4" style="stroke: rgb(65%,72%,78%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,98%); fill-rule: evenodd;"/>
+			<text x="382.5" y="235.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,470) scale(1,-1)">固定脚本入口</text>
+			<text x="378.04931640625" y="219.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,438) scale(1,-1)">CLI / HTTP API</text>
+			<rect x="168" y="122" width="154" height="52" rx="4" ry="4" style="stroke: rgb(65%,72%,78%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,98%); fill-rule: evenodd;"/>
+			<text x="200.82763671875" y="155.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,310) scale(1,-1)">FastAPI 与协议校验</text>
+			<text x="196.6650390625" y="139.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,278) scale(1,-1)">数据  参数  种子  预算</text>
+			<rect x="0" y="28" width="155" height="56" rx="4" ry="4" style="stroke: rgb(65%,72%,78%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,98%); fill-rule: evenodd;"/>
+			<text x="25.8251953125" y="63.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,126) scale(1,-1)">SQLite 调度与文件存储</text>
+			<text x="36.943359375" y="47.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,94) scale(1,-1)">状态  日志  校验和</text>
+			<rect x="168" y="28" width="154" height="56" rx="4" ry="4" style="stroke: rgb(65%,72%,78%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,98%); fill-rule: evenodd;"/>
+			<text x="215.0" y="63.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,126) scale(1,-1)">独立算法进程</text>
+			<text x="190.2587890625" y="47.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,94) scale(1,-1)">gCastle / Granger / NGC</text>
+			<rect x="335" y="28" width="155" height="56" rx="4" ry="4" style="stroke: rgb(65%,72%,78%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,98%); fill-rule: evenodd;"/>
+			<text x="377.5" y="63.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,126) scale(1,-1)">结果核验与交付</text>
+			<text x="362.2119140625" y="47.0" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,94) scale(1,-1)">JSON  CSV  SVG  ZIP</text>
+			<path d="M 78,203 L 200,174 Z" style="stroke: rgb(40%,48%,55%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="200 174, 193.4689 172.4689, 194.8564 178.3062" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,55%); fill-rule: evenodd;"/>
+			<path d="M 412,203 L 290,174 Z" style="stroke: rgb(40%,48%,55%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="290 174, 295.1436 178.3062, 296.5311 172.4689" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,55%); fill-rule: evenodd;"/>
+			<path d="M 245,122 L 245,84 Z" style="stroke: rgb(40%,48%,55%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="245 84, 242 90, 248 90" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,55%); fill-rule: evenodd;"/>
+			<path d="M 168,145 L 78,84 Z" style="stroke: rgb(40%,48%,55%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="78 84, 81.28353 89.84965, 84.64984 84.88297" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,55%); fill-rule: evenodd;"/>
+			<path d="M 155,56 L 168,56 Z" style="stroke: rgb(40%,48%,55%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="168 56, 162 53, 162 59" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,55%); fill-rule: evenodd;"/>
+			<path d="M 322,56 L 335,56 Z" style="stroke: rgb(40%,48%,55%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="335 56, 329 53, 329 59" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,55%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>

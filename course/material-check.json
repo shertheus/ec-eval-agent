@@ -1,0 +1,29 @@
+{
+  "readme_chinese_characters": 3590,
+  "readme_minimum_met": true,
+  "readme_sections_present": true,
+  "original_backend_lines": 1031,
+  "nonempty_modules": 15,
+  "code_minimum_met": true,
+  "paired_trials": 20,
+  "unique_task_arm_pairs": 20,
+  "system_metrics": [
+    "completed",
+    "protocol_correct",
+    "evidence_complete",
+    "wall_seconds"
+  ],
+  "reference_records": 15,
+  "references_2023_or_later": 9,
+  "references_have_sources": true,
+  "required_files_present": true,
+  "author_pending": [
+    "official_cover_and_identity",
+    "personal_reflection_and_conclusions",
+    "self_assessment",
+    "signed_AI_declaration",
+    "video",
+    "external_user_validation",
+    "final_submission_pdf_and_plagiarism_check"
+  ]
+}

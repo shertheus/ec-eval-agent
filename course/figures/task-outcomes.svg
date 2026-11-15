@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="175" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 175" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="175"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-175)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="148.5" y="153" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,306) scale(1,-1)">固定脚本（灰）</text>
+			<text x="319.48876953125" y="153" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,306) scale(1,-1)">Pi Agent（蓝）</text>
+			<text x="30.0" y="120" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,240) scale(1,-1)">任务完成</text>
+			<rect x="115" y="120" width="280.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<text x="411.739013671875" y="120" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,240) scale(1,-1)">10/10</text>
+			<rect x="115" y="108" width="280.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="411.739013671875" y="108" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,216) scale(1,-1)">10/10</text>
+			<text x="30.0" y="78" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,156) scale(1,-1)">协议正确</text>
+			<rect x="115" y="78" width="280.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<text x="411.739013671875" y="78" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,156) scale(1,-1)">10/10</text>
+			<rect x="115" y="66" width="280.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="411.739013671875" y="66" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,132) scale(1,-1)">10/10</text>
+			<text x="30.0" y="36" style="font-family: Arial Unicode MS; font-size: 10px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,72) scale(1,-1)">证据完整</text>
+			<rect x="115" y="36" width="280.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,61%,67%); fill-rule: evenodd;"/>
+			<text x="411.739013671875" y="36" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,72) scale(1,-1)">10/10</text>
+			<rect x="115" y="24" width="280.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,41%,60%); fill-rule: evenodd;"/>
+			<text x="411.739013671875" y="24" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,48) scale(1,-1)">10/10</text>
+			<text x="161.494140625" y="3" style="font-family: Arial Unicode MS; font-size: 9px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,6) scale(1,-1)">每个入口 10 项任务，含预期拒绝与超时处理</text>
+		</g>
+	</g>
+</svg>
