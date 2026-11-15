@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brain-connectivity-eval"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+description = "Reproducible brain connectivity evaluation backend"
+
+[project.scripts]
+brain-eval-backend = "brain_eval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["brain_eval*"]

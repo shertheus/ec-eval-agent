@@ -1,0 +1,61 @@
+{
+  "experiment_id": "exp_f17ae4e75b6b4e33",
+  "status": "passed",
+  "model": "deepseek-latest-flash",
+  "tools": [
+    {
+      "tool": "list_capabilities",
+      "error": false
+    },
+    {
+      "tool": "inspect_environment",
+      "error": false
+    },
+    {
+      "tool": "prepare_dataset",
+      "error": false
+    },
+    {
+      "tool": "validate_protocol",
+      "error": false
+    },
+    {
+      "tool": "submit_experiment",
+      "error": false
+    },
+    {
+      "tool": "inspect_experiment",
+      "error": false
+    },
+    {
+      "tool": "collect_results",
+      "error": false
+    }
+  ],
+  "run_metrics": [
+    {
+      "attempt": 1,
+      "dataset_id": "ds_7997c9acdf844452",
+      "device": "cpu",
+      "edge_count": 5,
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "has_truth": true,
+      "method": "notears",
+      "metric_version": "region-v1-reversal-cost-one-exclude-self",
+      "orientation": "source_row_to_target_column",
+      "precision": 1.0,
+      "recall": 1.0,
+      "run_id": "run_414c5d3ff3194826",
+      "runtime_seconds": 2.2918706480413675,
+      "seed": 42,
+      "shd": 0,
+      "tp": 5,
+      "zero_denominator": "zero"
+    }
+  ],
+  "prediction_equals_truth": true,
+  "manifest_checks_passed": true,
+  "scope": "Docker CPU with host-network proxy; GPU container untested"
+}

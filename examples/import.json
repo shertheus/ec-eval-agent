@@ -1,0 +1,7 @@
+{
+  "kind": "import",
+  "name": "brain-region-timeseries",
+  "path": "roi_timeseries.npy",
+  "input_kind": "timeseries",
+  "source": "Replace with dataset identifier, participant/run and preprocessing provenance"
+}

@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Brain evaluation exp_f17ae4e75b6b4e33</title>
+    <style>body{font:16px system-ui;max-width:1050px;margin:40px auto;line-height:1.6;padding:20px}td,th{padding:9px;border:1px solid #ccc}table{border-collapse:collapse}pre{white-space:pre-wrap;word-break:break-word}</style>
+    <h1>Docker live acceptance 20261115</h1><p>Experiment: exp_f17ae4e75b6b4e33 · Status: succeeded</p>
+    <p>Protocol SHA256: dc86c3131ab100d1d22ed95a71cc7d49502f41503b1f02a1c9d3b6aad1c7891e</p><p>1 / 1 runs succeeded.</p>
+    <table><tr><th>Dataset</th><th>Method</th><th>Runs</th><th>Mean F1</th><th>Mean SHD</th><th>Mean seconds</th></tr><tr><td>ds_7997c9acdf844452</td><td>notears</td><td>1</td><td>1.0</td><td>0.0</td><td>2.2918706480413675</td></tr></table>
+    <p>Blank recovery metrics mean no ground truth; they are not zeros. Aggregation is within each dataset across model seeds.</p>
+    <img src="connectivity.svg" alt="Directed adjacency matrix">
+    <h2>Pending or unsuccessful runs</h2><pre>[]</pre>
+    <h2>Protocol</h2><pre>{
+  &quot;aggregation_unit&quot;: &quot;model seeds within each dataset; independent dataset summaries separately&quot;,
+  &quot;dataset_checksums&quot;: {
+    &quot;ds_7997c9acdf844452&quot;: &quot;60beb6b6b7be4763e639fb93f2495eb32f5d663c71edcb1102943bd08fc3a8c5&quot;
+  },
+  &quot;dataset_ids&quot;: [
+    &quot;ds_7997c9acdf844452&quot;
+  ],
+  &quot;evaluation_level&quot;: &quot;region&quot;,
+  &quot;exclude_self&quot;: true,
+  &quot;methods&quot;: [
+    {
+      &quot;device&quot;: &quot;cpu&quot;,
+      &quot;name&quot;: &quot;notears&quot;,
+      &quot;params&quot;: {
+        &quot;lambda1&quot;: 0.1,
+        &quot;max_iter&quot;: 20,
+        &quot;w_threshold&quot;: 0.3
+      }
+    }
+  ],
+  &quot;metric_version&quot;: &quot;region-v1-reversal-cost-one-exclude-self&quot;,
+  &quot;schema_version&quot;: &quot;1&quot;,
+  &quot;seeds&quot;: [
+    42
+  ],
+  &quot;timeout_seconds&quot;: 120,
+  &quot;title&quot;: &quot;Docker live acceptance 20261115&quot;
+}</pre>
+    <h2>Evidence</h2><p>summary.json and runs.csv contain run IDs. Each run has an attempt directory containing configuration, environment, logs, graph, metrics and a SHA256 manifest.</p>
+    <h2>Interpretation</h2><p>These are method-specific graph estimates. Directional predictions alone do not establish physiological causality. Demonstration budgets are not convergence guarantees.</p></html>

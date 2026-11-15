@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+task_root="$(cd "$(dirname "$0")" && pwd)"
+task_saved=brain-eval
+if [ -f "$task_root/.container-name" ]; then read -r task_saved < "$task_root/.container-name"; fi
+task_container="${BRAIN_EVAL_CONTAINER:-$task_saved}"
+case "${1:-chat}" in
+  chat)
+    if [ "$#" -gt 0 ]; then shift; fi
+    task_terminal=(-i)
+    if [ -t 0 ] && [ -t 1 ]; then task_terminal+=(-t); fi
+    exec docker exec "${task_terminal[@]}" "$task_container" node --env-file=/config/deepseek.env /app/scripts/pi-entry.mjs "$@" ;;
+  logs) exec docker logs --tail 100 "$task_container" ;;
+  start) exec docker start "$task_container" ;;
+  stop) exec docker stop "$task_container" ;;
+  *) exec docker exec "$task_container" python -m brain_eval.cli "$@" ;;
+esac

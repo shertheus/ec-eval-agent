@@ -1,0 +1,13 @@
+# Validated development base: existing Conda env time, Python 3.11.
+# Install CUDA torch separately from the official cu128 index (see Dockerfile).
+numpy==1.26.4
+scipy==1.11.4
+gcastle==1.0.3
+fastapi==0.115.5
+uvicorn==0.32.0
+pydantic==2.9.2
+matplotlib==3.7.0
+networkx==3.4.2
+pandas==1.5.3
+statsmodels==0.14.4
+scikit-learn==1.2.2

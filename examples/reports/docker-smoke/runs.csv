@@ -1,0 +1,2 @@
+attempt,dataset_id,device,edge_count,f1,fn,fp,has_truth,method,metric_version,orientation,precision,recall,run_id,runtime_seconds,seed,shd,tp,zero_denominator
+1,ds_7997c9acdf844452,cpu,5,1.0,0,0,True,notears,region-v1-reversal-cost-one-exclude-self,source_row_to_target_column,1.0,1.0,run_414c5d3ff3194826,2.2918706480413675,42,0,5,zero

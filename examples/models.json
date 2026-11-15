@@ -1,0 +1,10 @@
+{
+  "providers": {
+    "brain-model": {
+      "baseUrl": "https://REPLACE_WITH_YOUR_ENDPOINT/v1",
+      "api": "openai-completions",
+      "apiKey": "$BRAIN_EVAL_MODEL_KEY",
+      "models": [{"id": "REPLACE_WITH_YOUR_MODEL_ID"}]
+    }
+  }
+}

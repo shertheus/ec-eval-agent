@@ -1,0 +1,2 @@
+# Preserve generated report bytes (Matplotlib path spacing and CSV CRLF).
+examples/reports/** -whitespace
