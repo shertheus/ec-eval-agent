@@ -1,0 +1,84 @@
+{
+  "scope": "Original backend Python only; excludes vendor, tests, scripts, TS, shell and docs",
+  "counting_rule": "Physical lines containing non-comment tokens, excluding AST docstring lines",
+  "total_lines": 1031,
+  "functions": 67,
+  "nonempty_modules": 15,
+  "files": [
+    {
+      "file": "backend/brain_eval/__init__.py",
+      "code_lines": 1,
+      "functions": 0
+    },
+    {
+      "file": "backend/brain_eval/adapters.py",
+      "code_lines": 123,
+      "functions": 3
+    },
+    {
+      "file": "backend/brain_eval/analysis_tools.py",
+      "code_lines": 54,
+      "functions": 3
+    },
+    {
+      "file": "backend/brain_eval/bundles.py",
+      "code_lines": 56,
+      "functions": 1
+    },
+    {
+      "file": "backend/brain_eval/cli.py",
+      "code_lines": 78,
+      "functions": 4
+    },
+    {
+      "file": "backend/brain_eval/compat.py",
+      "code_lines": 6,
+      "functions": 1
+    },
+    {
+      "file": "backend/brain_eval/contracts.py",
+      "code_lines": 60,
+      "functions": 2
+    },
+    {
+      "file": "backend/brain_eval/datasets.py",
+      "code_lines": 102,
+      "functions": 4
+    },
+    {
+      "file": "backend/brain_eval/experiments.py",
+      "code_lines": 179,
+      "functions": 12
+    },
+    {
+      "file": "backend/brain_eval/metrics.py",
+      "code_lines": 27,
+      "functions": 2
+    },
+    {
+      "file": "backend/brain_eval/protocols.py",
+      "code_lines": 35,
+      "functions": 1
+    },
+    {
+      "file": "backend/brain_eval/reports.py",
+      "code_lines": 77,
+      "functions": 1
+    },
+    {
+      "file": "backend/brain_eval/server.py",
+      "code_lines": 84,
+      "functions": 18
+    },
+    {
+      "file": "backend/brain_eval/storage.py",
+      "code_lines": 74,
+      "functions": 13
+    },
+    {
+      "file": "backend/brain_eval/worker.py",
+      "code_lines": 75,
+      "functions": 2
+    }
+  ]
+}

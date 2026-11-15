@@ -1,0 +1,25 @@
+{
+  "script": {
+    "tasks": 10,
+    "completed": 10,
+    "protocol_correct": 10,
+    "evidence_complete": 10,
+    "wall_mean": 4.879807388503105,
+    "wall_median": 4.153932586545125,
+    "wall_max": 16.11154783470556
+  },
+  "agent": {
+    "tasks": 10,
+    "completed": 10,
+    "protocol_correct": 10,
+    "evidence_complete": 10,
+    "wall_mean": 43.54436769927852,
+    "wall_median": 46.14296994917095,
+    "wall_max": 67.62950446922332
+  },
+  "data_pairs": {
+    "matched": 9,
+    "total": 9
+  },
+  "spec_sha256": "0df9ca0c9f96fb3d72ccbc46e18d8ac765b2ab9228702575b555902b903b0cad"
+}

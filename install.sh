@@ -2,7 +2,7 @@
 set -euo pipefail
 task_root="$(cd "$(dirname "$0")" && pwd)"
 cd "$task_root"
-task_image="${BRAIN_EVAL_IMAGE:-brain-eval:0.1.0}"
+task_image="${BRAIN_EVAL_IMAGE:-brain-eval:0.2.0}"
 task_container="${BRAIN_EVAL_CONTAINER:-brain-eval}"
 task_gpu="${BRAIN_EVAL_GPU:-none}"
 task_network="${BRAIN_EVAL_NETWORK:-bridge}"

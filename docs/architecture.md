@@ -1,6 +1,6 @@
 # 架构与执行约定
 
-版本：0.1.0。更新：2026-11-15。本文描述已实现的单机系统，验收边界见 [validation.md](validation.md)。
+版本：0.2.0。更新：2026-11-15。本文描述已实现的单机系统，验收边界见 [validation.md](validation.md)。
 
 ## 总体结构
 
@@ -21,7 +21,7 @@ flowchart TD
     R --> API
 ```
 
-Pi 不计算指标，不直接编辑算法，也不承担持久化调度。默认只启用八个领域工具。CLI 与 Pi 使用相同后端，因此固定脚本可作为自动化评测的执行基线。完整研究基线比较尚未完成。
+Pi 不计算指标，不直接编辑算法，也不承担持久化调度。默认只启用11 个领域工具。CLI 与 Pi 使用相同后端，因此固定脚本可作为自动化评测的执行基线。系统评测使用固定脚本与真实 Pi Agent 进行配对比较，见 [系统评测](system-evaluation.md)。
 
 ## 模块
 
@@ -33,13 +33,14 @@ Pi 不计算指标，不直接编辑算法，也不承担持久化调度。默�
 | 调度与存储 | experiments.py、storage.py | SQLite 状态、串行执行、取消、超时、重试、恢复 |
 | 算法执行 | adapters.py、worker.py | 子进程隔离、设备选择、第三方接口与原始证据 |
 | 指标与报告 | metrics.py、reports.py | 有向图指标、哈希核验、CSV/JSON/SVG/HTML |
+| 数据分析与交付 | analysis_tools.py、bundles.py | 节点统计、匹配数据对比、证据 ZIP |
 | 服务与固定脚本 | server.py、cli.py | 版本化 HTTP API 和非模型入口 |
 | 智能体 | agent/extensions/brain-eval.ts | 工具定义与科研流程约束 |
 | 安装 | docker/Dockerfile、install*.sh、brain-eval | 镜像、数据挂载、启动与交互 |
 
 原版 gCastle 1.0.3 与 NetworkX 3 的兼容处理在 compat.py 中完成，不修改共享 site-packages。Neural-GC 代码保留原始许可证、提交号和哈希，适配时统一输出矩阵方向。
 
-## 八个工具
+## 11 个工具
 
 | 工具 | API | 行为 |
 |---|---|---|
@@ -51,6 +52,10 @@ Pi 不计算指标，不直接编辑算法，也不承担持久化调度。默�
 | inspect_experiment | GET /v1/experiments[/{id}] | 状态与可选日志，最多短等候十秒 |
 | control_experiment | POST /v1/experiments/{id}/actions | 显式取消或按原协议重试 |
 | collect_results | GET /v1/experiments/{id}/results | 核验成功产物并导出报告 |
+
+| inspect_dataset | GET /v1/datasets/{id} | 校验观测并返回节点统计 |
+| compare_experiments | POST /v1/comparisons | 按数据签名对比终态实验 |
+| export_experiment | POST /v1/experiments/{id}/export | 核验并打包实验文件 |
 
 另有 /v1/health 健康检查。后端默认只绑定回环地址，不是提供多用户访问控制的公网 API。
 
@@ -78,4 +83,4 @@ SEM 可以是线性或 MLP 机制，动态生成器支持线性或 tanh 机制�
 
 新算法需声明输入语义、参数范围、设备与方向转换，输出统一邻接矩阵并保存诊断。新增指标需定义无真值、零分母与双向边行为，并增加针对边界的验证。
 
-当前未实现分布式调度、多租户服务、完整 MRI 预处理或全部算法的训练断点续跑。GPU 容器、外部使用者安装与多任务 Agent 对照仍需单独验证。
+当前未实现分布式调度、多租户服务、完整 MRI 预处理或全部算法的训练断点续跑。GPU 容器和外部使用者安装另行验收。

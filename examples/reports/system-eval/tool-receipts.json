@@ -1,0 +1,1532 @@
+[
+  {
+    "task": "T01",
+    "arm": "script",
+    "events": [
+      {
+        "operation": "/v1/capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets/ds_ef6dd1cb050843fb",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/protocols/validate",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "/v1/experiments",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3/results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_4533da961e3d4bc3/export",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T01",
+    "arm": "agent",
+    "events": [
+      {
+        "operation": "list_capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_environment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "prepare_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "validate_protocol",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "submit_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "collect_results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "export_experiment",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T02",
+    "arm": "agent",
+    "events": [
+      {
+        "operation": "list_capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_environment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "prepare_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "validate_protocol",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "submit_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "collect_results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "export_experiment",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T02",
+    "arm": "script",
+    "events": [
+      {
+        "operation": "/v1/capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets/ds_f65f2d82283942ed",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/protocols/validate",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "/v1/experiments",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1/results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_10187143b20749c1/export",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T03",
+    "arm": "script",
+    "events": [
+      {
+        "operation": "/v1/capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets/ds_e0779f79155e4e71",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/protocols/validate",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "/v1/experiments",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc/results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_5ccac710eeb547cc/export",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T03",
+    "arm": "agent",
+    "events": [
+      {
+        "operation": "list_capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_environment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "prepare_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "validate_protocol",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "submit_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "collect_results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "export_experiment",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T04",
+    "arm": "agent",
+    "events": [
+      {
+        "operation": "list_capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_environment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "prepare_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "validate_protocol",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "inspect_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "submit_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "collect_results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "export_experiment",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T04",
+    "arm": "script",
+    "events": [
+      {
+        "operation": "/v1/capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets/ds_3ed248d8ec084463",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/protocols/validate",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "/v1/experiments",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_039cb95a0d6f4cb7",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_039cb95a0d6f4cb7",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_039cb95a0d6f4cb7",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_039cb95a0d6f4cb7",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_039cb95a0d6f4cb7",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_039cb95a0d6f4cb7",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_039cb95a0d6f4cb7",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_039cb95a0d6f4cb7",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_039cb95a0d6f4cb7",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_039cb95a0d6f4cb7/results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_039cb95a0d6f4cb7/export",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T05",
+    "arm": "script",
+    "events": [
+      {
+        "operation": "/v1/capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets/ds_8f45945d2d7e43d1",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/protocols/validate",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "/v1/experiments",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_a9914947b6a74292",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_a9914947b6a74292",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_a9914947b6a74292",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_a9914947b6a74292",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_a9914947b6a74292",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_a9914947b6a74292",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_a9914947b6a74292",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_a9914947b6a74292",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_a9914947b6a74292/results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_a9914947b6a74292/export",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T05",
+    "arm": "agent",
+    "events": [
+      {
+        "operation": "list_capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_environment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "prepare_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "validate_protocol",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "submit_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "collect_results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "export_experiment",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T06",
+    "arm": "agent",
+    "events": [
+      {
+        "operation": "list_capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_environment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "prepare_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "validate_protocol",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "submit_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "collect_results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "export_experiment",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T06",
+    "arm": "script",
+    "events": [
+      {
+        "operation": "/v1/capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets/ds_8b765d7168ad4f2e",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/protocols/validate",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "/v1/experiments",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc/results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_ab4f414f8e9946fc/export",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T07",
+    "arm": "script",
+    "events": [
+      {
+        "operation": "/v1/capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets/ds_e640ee51b9254d19",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/protocols/validate",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "/v1/experiments",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa/results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_1bf0a57d516849aa/export",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T07",
+    "arm": "agent",
+    "events": [
+      {
+        "operation": "list_capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_environment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "prepare_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "validate_protocol",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "submit_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "collect_results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "export_experiment",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T08",
+    "arm": "agent",
+    "events": [
+      {
+        "operation": "list_capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_environment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "prepare_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "validate_protocol",
+        "error": false,
+        "validation_valid": false
+      }
+    ]
+  },
+  {
+    "task": "T08",
+    "arm": "script",
+    "events": [
+      {
+        "operation": "/v1/capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets/ds_18152fb2bb2b4799",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/protocols/validate",
+        "error": false,
+        "validation_valid": false
+      }
+    ]
+  },
+  {
+    "task": "T09",
+    "arm": "agent",
+    "events": [
+      {
+        "operation": "list_capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_environment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "prepare_dataset",
+        "error": true,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T09",
+    "arm": "script",
+    "events": [
+      {
+        "operation": "/v1/capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets",
+        "error": true,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T10",
+    "arm": "agent",
+    "events": [
+      {
+        "operation": "list_capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_environment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "prepare_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_dataset",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "validate_protocol",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "submit_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "inspect_experiment",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "collect_results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "export_experiment",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  },
+  {
+    "task": "T10",
+    "arm": "script",
+    "events": [
+      {
+        "operation": "/v1/capabilities",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/datasets/ds_e39398e5bf964e0e",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/protocols/validate",
+        "error": false,
+        "validation_valid": true
+      },
+      {
+        "operation": "/v1/experiments",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6/results",
+        "error": false,
+        "validation_valid": null
+      },
+      {
+        "operation": "/v1/experiments/exp_dc51fbdb3db845d6/export",
+        "error": false,
+        "validation_valid": null
+      }
+    ]
+  }
+]

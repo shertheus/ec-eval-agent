@@ -6,7 +6,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI,Query
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
-from .contracts import DatasetRequest,Protocol,Submission,Action
+from .contracts import DatasetRequest,Protocol,Submission,Action,Comparison
 from .storage import initialize,root,read_json
 from .experiments import Scheduler,submit,inspect,recent
 from .protocols import validate
@@ -23,7 +23,7 @@ async def lifespan(app):
     finally: scheduler.close()
 
 
-app=FastAPI(title="Brain Connectivity Evaluation",version="0.1.0",lifespan=lifespan)
+app=FastAPI(title="Brain Connectivity Evaluation",version="0.2.0",lifespan=lifespan)
 
 
 def ok(data): return dict(ok=True,schema_version="1",data=data)
@@ -103,3 +103,21 @@ def action(exp_id:str,request:Action): return ok(scheduler.control(exp_id,reques
 def results(exp_id:str):
     from .reports import collect
     return ok(collect(exp_id))
+
+
+@app.get("/v1/datasets/{dataset_id}")
+def dataset_inspection(dataset_id:str):
+    from .analysis_tools import inspect_dataset
+    return ok(inspect_dataset(dataset_id))
+
+
+@app.post("/v1/comparisons")
+def comparison(request:Comparison):
+    from .analysis_tools import compare_experiments
+    return ok(compare_experiments(request.experiment_ids, request.strict_dataset_match))
+
+
+@app.post("/v1/experiments/{exp_id}/export")
+def export_bundle(exp_id:str):
+    from .bundles import export_experiment
+    return ok(export_experiment(exp_id))

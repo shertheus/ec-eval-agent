@@ -1,6 +1,6 @@
 # OBS Docker 安装演示
 
-2026-11-15 镜像构建和开发者容器验收已完成，最终安装和录屏由用户完成。总长不超过3分钟。正式目录为服务器 <demo-directory>。操作细节见 docker-quickstart.md，验收范围见 docker-release-20261115.md。
+2026-11-15 镜像构建和开发者容器验收已完成，最终安装和录屏由用户完成。总长不超过3分钟。正式目录为服务器 <demo-directory>。操作细节见 docker-quickstart.md，当前版本验收见 [0.2.0 记录](docker-release-020.md)。
 
 | 时间预算 | 画面与操作 | 要说明的内容 |
 |---|---|---|

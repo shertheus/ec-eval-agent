@@ -26,3 +26,6 @@ validation/
 
 # macOS resource forks
 ._*
+
+# Also exclude runtime dependency symlinks
+agent/node_modules

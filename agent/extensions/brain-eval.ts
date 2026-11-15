@@ -8,6 +8,7 @@ const guidance = `你是脑连接评测助手。使用注册的brain工具完成
 静态因果方法也可用于脑区时间序列，但必须记录其无环和观测样本假设；不要一概拒绝。
 IID合成样本不能被自动当成有时间顺序的序列。模型参数和阈值不可根据最终真值挑选。
 真实脑数据无真值时不报告结构恢复F1或SHD。结果必须注明实验编号、方法、数据、重复单位与证据路径。
+不得仅凭样本数大于节点数声称样本充分。
 短预算demo仅验证流程，不保证收敛或方法排名。失败运行必须披露。
 重试保持原协议；修改参数应提交新实验。解释可能原因时与实际观测分开。
 用户询问课程反思时提供实验记录，供用户独立撰写。`;
@@ -80,9 +81,16 @@ export default function (pi: ExtensionAPI) {
     (p,s)=>api(`/v1/experiments/${encodeURIComponent(p.experiment_id)}/actions`,{action:p.action},s));
   register("collect_results", "核验结果文件校验和，计算汇总，导出CSV、SVG与HTML报告。",Type.Object({experiment_id:Type.String()}),
     (p,s)=>api(`/v1/experiments/${encodeURIComponent(p.experiment_id)}/results`,undefined,s));
+  register("inspect_dataset", "核验数据校验和并返回每个节点的描述统计，不返回原始时序。",Type.Object({dataset_id:Type.String()}),
+    (p,s)=>api(`/v1/datasets/${encodeURIComponent(p.dataset_id)}`,undefined,s));
+  register("compare_experiments", "对比已结束的实验，默认要求数据内容与语义相同，披露设备参数种子，不自动排名。",Type.Object({
+    experiment_ids:Type.Array(Type.String(),{minItems:2,maxItems:20}),strict_dataset_match:Type.Optional(Type.Boolean())}),
+    (p,s)=>api("/v1/comparisons",p,s));
+  register("export_experiment", "核验并导出终态实验的证据ZIP，不含原始数据或模型密钥。返回服务端路径及SHA256。",Type.Object({experiment_id:Type.String()}),
+    (p,s)=>api(`/v1/experiments/${encodeURIComponent(p.experiment_id)}/export`,{},s));
   pi.on("session_start", async (_event,ctx)=>{
     pi.setActiveTools(names);
-    ctx.ui.notify("脑连接评测模式：8个领域工具已加载；输入需求开始。", "info");
+    ctx.ui.notify("脑连接评测模式：11个领域工具已加载；输入需求开始。", "info");
   });
   pi.on("before_agent_start", async(event)=>({systemPrompt: `${event.systemPrompt}\n\n${guidance}`}));
 }

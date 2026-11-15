@@ -1,0 +1,60 @@
+{
+  "version": "0.2.0",
+  "image_id": "sha256:a337233611504f1e7aa43a190474562f996f8e61243482637dcd42a510d2ec62",
+  "offline_unit_tests": 13,
+  "real_model": "deepseek-latest-flash",
+  "tool_calls": 17,
+  "tool_errors": 0,
+  "experiments": [
+    {
+      "id": "exp_78b9bacb9ca144c8",
+      "status": "succeeded",
+      "params": {
+        "alpha": 0.05,
+        "lag": 1
+      }
+    },
+    {
+      "id": "exp_b03082890d5f40c8",
+      "status": "succeeded",
+      "params": {
+        "alpha": 0.01,
+        "lag": 1
+      }
+    }
+  ],
+  "matched_comparison": true,
+  "archives": [
+    {
+      "name": "exp_78b9bacb9ca144c8.zip",
+      "sha256": "caae478436c7a5e1b415171620352108c7c407883ed46e035c0a6413d8612bb9",
+      "members": 15
+    },
+    {
+      "name": "exp_b03082890d5f40c8.zip",
+      "sha256": "bc1ada1097102806846818b85c19a045abc587249ffe7d1ab764c3e5bb0794e8",
+      "members": 15
+    }
+  ],
+  "tool_sequence": [
+    "list_capabilities",
+    "inspect_environment",
+    "prepare_dataset",
+    "inspect_dataset",
+    "validate_protocol",
+    "validate_protocol",
+    "validate_protocol",
+    "validate_protocol",
+    "submit_experiment",
+    "submit_experiment",
+    "inspect_experiment",
+    "inspect_experiment",
+    "collect_results",
+    "collect_results",
+    "compare_experiments",
+    "export_experiment",
+    "export_experiment"
+  ],
+  "protocol_validation_rejections": 2,
+  "rejection_reason": "seed was placed in method.params; moved to protocol.seeds before submission"
+}

@@ -61,12 +61,16 @@ def main():
     sub.add_parser("list")
     d=sub.add_parser("demo");d.add_argument("--device",choices=["cpu","cuda"],default="cpu")
     d.add_argument("--methods",nargs="+");d.add_argument("--kind",choices=["sem","var"],default="sem")
-    for cmd in ["status","results","cancel","retry"]:
+    for cmd in ["status","results","cancel","retry","export","inspect-data"]:
         s=sub.add_parser(cmd);s.add_argument("id")
     for cmd in ["dataset","validate","submit"]:
         s=sub.add_parser(cmd);s.add_argument("file",type=Path)
+    c=sub.add_parser("compare");c.add_argument("ids",nargs="+");c.add_argument("--allow-different-data",action="store_true")
     args=parser.parse_args()
     if args.command=="doctor": show(dict(health=request("/v1/health"),environment=request("/v1/environment"),capabilities=request("/v1/capabilities")))
+    elif args.command=="inspect-data": show(request(f"/v1/datasets/{args.id}"))
+    elif args.command=="export": show(request(f"/v1/experiments/{args.id}/export",{}))
+    elif args.command=="compare": show(request("/v1/comparisons",dict(experiment_ids=args.ids,strict_dataset_match=not args.allow_different_data)))
     elif args.command=="list": show(request("/v1/experiments"))
     elif args.command=="demo": demo(args.device,args.methods,args.kind)
     elif args.command in ("cancel","retry"): show(request(f"/v1/experiments/{args.id}/actions",dict(action=args.command)))

@@ -1,0 +1,307 @@
+{
+  "tasks": [
+    {
+      "id": "T01",
+      "data": {
+        "kind": "sem",
+        "nodes": 5,
+        "samples": 150,
+        "edges": 4,
+        "seed": 11
+      },
+      "methods": [
+        {
+          "name": "notears",
+          "params": {
+            "max_iter": 5
+          },
+          "device": "cpu"
+        }
+      ],
+      "seeds": [
+        1
+      ],
+      "timeout_seconds": 30,
+      "expected": "success"
+    },
+    {
+      "id": "T02",
+      "data": {
+        "kind": "sem",
+        "nodes": 3,
+        "samples": 80,
+        "edges": 2,
+        "seed": 11
+      },
+      "methods": [
+        {
+          "name": "golem",
+          "params": {
+            "num_iter": 20
+          },
+          "device": "cpu"
+        }
+      ],
+      "seeds": [
+        1
+      ],
+      "timeout_seconds": 30,
+      "expected": "success"
+    },
+    {
+      "id": "T03",
+      "data": {
+        "kind": "sem",
+        "nodes": 3,
+        "samples": 60,
+        "edges": 2,
+        "seed": 11
+      },
+      "methods": [
+        {
+          "name": "dag_gnn",
+          "params": {
+            "epochs": 1,
+            "k_max_iter": 1
+          },
+          "device": "cpu"
+        }
+      ],
+      "seeds": [
+        1
+      ],
+      "timeout_seconds": 30,
+      "expected": "success"
+    },
+    {
+      "id": "T04",
+      "data": {
+        "kind": "var",
+        "nodes": 4,
+        "samples": 160,
+        "edges": 3,
+        "seed": 11
+      },
+      "methods": [
+        {
+          "name": "granger",
+          "params": {
+            "lag": 1
+          },
+          "device": "cpu"
+        }
+      ],
+      "seeds": [
+        1
+      ],
+      "timeout_seconds": 30,
+      "expected": "success"
+    },
+    {
+      "id": "T05",
+      "data": {
+        "kind": "var",
+        "nodes": 3,
+        "samples": 80,
+        "edges": 2,
+        "seed": 11
+      },
+      "methods": [
+        {
+          "name": "neural_gc",
+          "params": {
+            "lag": 1,
+            "max_iter": 10,
+            "hidden": 8
+          },
+          "device": "cpu"
+        }
+      ],
+      "seeds": [
+        1
+      ],
+      "timeout_seconds": 30,
+      "expected": "success"
+    },
+    {
+      "id": "T06",
+      "data": {
+        "kind": "sem",
+        "nodes": 4,
+        "samples": 120,
+        "edges": 3,
+        "seed": 11
+      },
+      "methods": [
+        {
+          "name": "notears",
+          "params": {
+            "max_iter": 5
+          },
+          "device": "cpu"
+        },
+        {
+          "name": "golem",
+          "params": {
+            "num_iter": 20
+          },
+          "device": "cpu"
+        }
+      ],
+      "seeds": [
+        1,
+        2
+      ],
+      "timeout_seconds": 30,
+      "expected": "success"
+    },
+    {
+      "id": "T07",
+      "data": {
+        "kind": "import",
+        "path": "fixture.csv",
+        "input_kind": "timeseries"
+      },
+      "methods": [
+        {
+          "name": "granger",
+          "params": {
+            "lag": 1
+          },
+          "device": "cpu"
+        }
+      ],
+      "seeds": [
+        1
+      ],
+      "timeout_seconds": 30,
+      "expected": "success"
+    },
+    {
+      "id": "T08",
+      "data": {
+        "kind": "sem",
+        "nodes": 3,
+        "samples": 80,
+        "edges": 2,
+        "seed": 11
+      },
+      "methods": [
+        {
+          "name": "granger",
+          "params": {
+            "lag": 1
+          },
+          "device": "cpu"
+        }
+      ],
+      "seeds": [
+        1
+      ],
+      "timeout_seconds": 30,
+      "expected": "protocol_rejection"
+    },
+    {
+      "id": "T09",
+      "data": {
+        "kind": "import",
+        "path": "bad.csv",
+        "input_kind": "timeseries"
+      },
+      "methods": [
+        {
+          "name": "granger",
+          "params": {
+            "lag": 1
+          },
+          "device": "cpu"
+        }
+      ],
+      "seeds": [
+        1
+      ],
+      "timeout_seconds": 30,
+      "expected": "import_rejection"
+    },
+    {
+      "id": "T10",
+      "data": {
+        "kind": "sem",
+        "nodes": 3,
+        "samples": 80,
+        "edges": 2,
+        "seed": 11
+      },
+      "methods": [
+        {
+          "name": "golem",
+          "params": {
+            "num_iter": 1000000
+          },
+          "device": "cpu"
+        }
+      ],
+      "seeds": [
+        1
+      ],
+      "timeout_seconds": 5,
+      "expected": "timeout"
+    }
+  ],
+  "order": [
+    "T01-script",
+    "T01-agent",
+    "T02-agent",
+    "T02-script",
+    "T03-script",
+    "T03-agent",
+    "T04-agent",
+    "T04-script",
+    "T05-script",
+    "T05-agent",
+    "T06-agent",
+    "T06-script",
+    "T07-script",
+    "T07-agent",
+    "T08-agent",
+    "T08-script",
+    "T09-agent",
+    "T09-script",
+    "T10-agent",
+    "T10-script"
+  ],
+  "agent_deadline_seconds": 180,
+  "metrics": [
+    "task_completion",
+    "protocol_correctness",
+    "evidence_completeness",
+    "wall_seconds"
+  ],
+  "source_sha256": {
+    "agent/extensions/brain-eval.ts": "d911e3f17a98aa89f5d675197fd5977c068eda3811c5af924761e3fc727df80d",
+    "agent/test-extension.mjs": "35660a88d7333344f6ba090dc0a638522833e04ee6d2f3ed08f3c662f7ed4bf4",
+    "backend/brain_eval/__init__.py": "7ed0ad43f4caf1f0b22007c36b7b25a213a8fba18cf5c7a69d67c899173841aa",
+    "backend/brain_eval/adapters.py": "a8fbe3345bb84301551538ca14e8b614270d3df7ba1f42ee70b91b8815f0179d",
+    "backend/brain_eval/analysis_tools.py": "e240f2a27addebcddb314e361719a9ebfa86999780d81f811d501c1f0020aa43",
+    "backend/brain_eval/bundles.py": "b0a214a202104c943a1f70b8d39d73a73f1b887c23242c05c19416116e7a9684",
+    "backend/brain_eval/cli.py": "1c832a4fb35b6981747df534b071a72eea0631ffaf0c1dae6e2731b1cfba4142",
+    "backend/brain_eval/compat.py": "c0532dd347fce8241dcf8f0d0f4e4a258690afa938a1e8d360e669b8fcea792c",
+    "backend/brain_eval/contracts.py": "24ada99753d788649cbaef3fe672b645160a18e77d09b865ea5793bf09d2c612",
+    "backend/brain_eval/datasets.py": "c4950d7ff7afc0018e18aacd4a5ffa24452fdab2a31bdac169d146e83fe4683f",
+    "backend/brain_eval/experiments.py": "845a26de2f7b89c1c9cfcbe328a9814f2fbbfaa8add92b881d6dcb0c0f0477d8",
+    "backend/brain_eval/metrics.py": "603f226c4bd11a1e2c0e07045442f234b2c2dbaf53d5308414dd9b10f43cac4b",
+    "backend/brain_eval/protocols.py": "581f00e7bc9c52070b86dd7c65febc2ce56dac5f5d4fde8286cbf9cbce3819a3",
+    "backend/brain_eval/reports.py": "a91cb7841f1377cca2d6e501d475b7346f7be570dd9edaa0be34497603da26bd",
+    "backend/brain_eval/server.py": "8675116730dbac19d26f5c9d1b2cc58d7f4e8fecf090d91795067bc8dea1b5cb",
+    "backend/brain_eval/storage.py": "a0e7361bfbef330eb8c67465ba2ef22e5b6661eb08793939beec67f56677450f",
+    "backend/brain_eval/worker.py": "60dabfd26454bd7ab3d4d0a445e66e6eba0a5456fe00137b43d65ce92b2329df",
+    "benchmarks/run_system.py": "4fde8cf3de49ad74b84a4e9c02cf1f6abf26297121491e6b5c963bf2906e81b6",
+    "scripts/count_code.py": "85cc88a81655335f8e9e052349bed24472ca80a0cdc6a0684f511f51dd37f10c",
+    "scripts/integration_test.py": "32d2cd2d48af8967cc974c2e7f77201aad03fdc1682e14f99f17cab82d0fea84",
+    "scripts/pi-entry.mjs": "94938ddb5e5683eb371ed6376e339899cfe67d12e3ab8bb94e7e58ad17f77d0d",
+    "scripts/restart_test.py": "a35d61d40fce1407cda6b32ba105c0d405bc8e76613e81395d325ff6d1f41e45",
+    "scripts/stock_gcastle_test.py": "55614f80d0ad288eb71407569d60fdf419737501bf49060c2a1095f862b2e0bc",
+    "tests/test_analysis_tools.py": "efa51b2bc2d547e91878a020faa366ec36607b79a614396e86ae64098bb70f3b",
+    "tests/test_core.py": "600a44753728b8960f5dfa45f5c63a7733e17855c0d2afe7bf70ba3543c386da"
+  }
+}

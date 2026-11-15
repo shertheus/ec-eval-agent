@@ -70,3 +70,8 @@ class Submission(StrictModel):
 
 class Action(StrictModel):
     action: Literal["cancel", "retry"]
+
+
+class Comparison(StrictModel):
+    experiment_ids: list[str] = Field(min_length=2, max_length=20)
+    strict_dataset_match: bool = True

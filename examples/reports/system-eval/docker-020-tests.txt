@@ -1,0 +1,18 @@
+test_comparison_requires_matching_data (test_analysis_tools.AnalysisToolsTests.test_comparison_requires_matching_data) ... ok
+test_export_has_verifiable_manifest_and_no_raw_data (test_analysis_tools.AnalysisToolsTests.test_export_has_verifiable_manifest_and_no_raw_data) ... ok
+test_export_rejects_modified_result (test_analysis_tools.AnalysisToolsTests.test_export_rejects_modified_result) ... ok
+test_statistics_and_tampered_observations (test_analysis_tools.AnalysisToolsTests.test_statistics_and_tampered_observations) ... ok
+test_granger_direction (test_core.CoreTests.test_granger_direction) ... ok
+test_idempotency_and_explicit_retry (test_core.CoreTests.test_idempotency_and_explicit_retry) ... ok
+test_import_rejects_path_escape_and_nan (test_core.CoreTests.test_import_rejects_path_escape_and_nan) ... ok
+test_neural_gc_orientation (test_core.CoreTests.test_neural_gc_orientation) ... ok
+test_parameter_validation (test_core.CoreTests.test_parameter_validation) ... ok
+test_real_input_no_fabricated_truth (test_core.CoreTests.test_real_input_no_fabricated_truth) ... ok
+test_reversal_and_bidirectional_metrics (test_core.CoreTests.test_reversal_and_bidirectional_metrics) ... ok
+test_rng_and_data_integrity (test_core.CoreTests.test_rng_and_data_integrity) ... ok
+test_static_brain_methods_allowed_but_iid_time_rejected (test_core.CoreTests.test_static_brain_methods_allowed_but_iid_time_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 17.698s
+
+OK

@@ -1,0 +1,560 @@
+[
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "2b14a3d7c382652d2ce8a063e3f6714a048d75cbf7f0e3ab79fb9d03b8d17f1f",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "notears",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T01",
+    "arm": "script",
+    "expected": "success",
+    "wall_seconds": 4.9170002322643995,
+    "agent_stop_reasons": [],
+    "tool_errors": 0,
+    "event_count": 20,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "2b14a3d7c382652d2ce8a063e3f6714a048d75cbf7f0e3ab79fb9d03b8d17f1f",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "notears",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T01",
+    "arm": "agent",
+    "expected": "success",
+    "wall_seconds": 52.79193685622886,
+    "agent_stop_reasons": [
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "stop"
+    ],
+    "tool_errors": 0,
+    "event_count": 9,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "8d14cdff9f1762596787ee5f44603fb95c8c5e5a76344ce390f36447c6c8899e",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "golem",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T02",
+    "arm": "agent",
+    "expected": "success",
+    "wall_seconds": 53.635187706910074,
+    "agent_stop_reasons": [
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "stop"
+    ],
+    "tool_errors": 0,
+    "event_count": 9,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "8d14cdff9f1762596787ee5f44603fb95c8c5e5a76344ce390f36447c6c8899e",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "golem",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T02",
+    "arm": "script",
+    "expected": "success",
+    "wall_seconds": 5.597490291111171,
+    "agent_stop_reasons": [],
+    "tool_errors": 0,
+    "event_count": 22,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "8edf0de765f2c829a7b29672fcec7935e60a4415b50554acf4795a717d3197fa",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "dag_gnn",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T03",
+    "arm": "script",
+    "expected": "success",
+    "wall_seconds": 5.232389021664858,
+    "agent_stop_reasons": [],
+    "tool_errors": 0,
+    "event_count": 21,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "8edf0de765f2c829a7b29672fcec7935e60a4415b50554acf4795a717d3197fa",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "dag_gnn",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T03",
+    "arm": "agent",
+    "expected": "success",
+    "wall_seconds": 49.04276934731752,
+    "agent_stop_reasons": [
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "stop"
+    ],
+    "tool_errors": 0,
+    "event_count": 9,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "c02e2f140fae4b2ecce25939ec23b3e565810f0a449389e40a9ae5e1f54ad072",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "granger",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T04",
+    "arm": "agent",
+    "expected": "success",
+    "wall_seconds": 36.961199584882706,
+    "agent_stop_reasons": [
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "stop"
+    ],
+    "tool_errors": 0,
+    "event_count": 9,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "c02e2f140fae4b2ecce25939ec23b3e565810f0a449389e40a9ae5e1f54ad072",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "granger",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T04",
+    "arm": "script",
+    "expected": "success",
+    "wall_seconds": 3.114132669288665,
+    "agent_stop_reasons": [],
+    "tool_errors": 0,
+    "event_count": 16,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "ecb476871d4a8291f5996970957be2ee7ae89cbcd44b0b3c292b85b4bca62b87",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "neural_gc",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T05",
+    "arm": "script",
+    "expected": "success",
+    "wall_seconds": 2.7896765489131212,
+    "agent_stop_reasons": [],
+    "tool_errors": 0,
+    "event_count": 15,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "ecb476871d4a8291f5996970957be2ee7ae89cbcd44b0b3c292b85b4bca62b87",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "neural_gc",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T05",
+    "arm": "agent",
+    "expected": "success",
+    "wall_seconds": 42.64198375120759,
+    "agent_stop_reasons": [
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "stop"
+    ],
+    "tool_errors": 0,
+    "event_count": 9,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "56fdfc0e1138413d8b3ff50da9a1a8c3b3cd6a9f3e1b97157d31ac92d9c9a8bc",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "notears",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      },
+      {
+        "method": "notears",
+        "seed": 2,
+        "status": "succeeded",
+        "attempt": 1
+      },
+      {
+        "method": "golem",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      },
+      {
+        "method": "golem",
+        "seed": 2,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T06",
+    "arm": "agent",
+    "expected": "success",
+    "wall_seconds": 67.62950446922332,
+    "agent_stop_reasons": [
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "stop"
+    ],
+    "tool_errors": 0,
+    "event_count": 10,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "56fdfc0e1138413d8b3ff50da9a1a8c3b3cd6a9f3e1b97157d31ac92d9c9a8bc",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "notears",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      },
+      {
+        "method": "notears",
+        "seed": 2,
+        "status": "succeeded",
+        "attempt": 1
+      },
+      {
+        "method": "golem",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      },
+      {
+        "method": "golem",
+        "seed": 2,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T06",
+    "arm": "script",
+    "expected": "success",
+    "wall_seconds": 16.11154783470556,
+    "agent_stop_reasons": [],
+    "tool_errors": 0,
+    "event_count": 57,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "58892c00b86fb6fa13af433642ea228860de725d35010e4916b0caa5bb4367f2",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "granger",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T07",
+    "arm": "script",
+    "expected": "success",
+    "wall_seconds": 3.3908649408258498,
+    "agent_stop_reasons": [],
+    "tool_errors": 0,
+    "event_count": 17,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "58892c00b86fb6fa13af433642ea228860de725d35010e4916b0caa5bb4367f2",
+    "experiment_status": "succeeded",
+    "runs": [
+      {
+        "method": "granger",
+        "seed": 1,
+        "status": "succeeded",
+        "attempt": 1
+      }
+    ],
+    "task": "T07",
+    "arm": "agent",
+    "expected": "success",
+    "wall_seconds": 43.68212701100856,
+    "agent_stop_reasons": [
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "stop"
+    ],
+    "tool_errors": 0,
+    "event_count": 9,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "8d14cdff9f1762596787ee5f44603fb95c8c5e5a76344ce390f36447c6c8899e",
+    "experiment_status": "rejected",
+    "runs": [],
+    "task": "T08",
+    "arm": "agent",
+    "expected": "protocol_rejection",
+    "wall_seconds": 26.017980721779168,
+    "agent_stop_reasons": [
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "stop"
+    ],
+    "tool_errors": 0,
+    "event_count": 5,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "8d14cdff9f1762596787ee5f44603fb95c8c5e5a76344ce390f36447c6c8899e",
+    "experiment_status": "rejected",
+    "runs": [],
+    "task": "T08",
+    "arm": "script",
+    "expected": "protocol_rejection",
+    "wall_seconds": 0.798718994949013,
+    "agent_stop_reasons": [],
+    "tool_errors": 0,
+    "event_count": 4,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": null,
+    "experiment_status": "rejected",
+    "runs": [],
+    "task": "T09",
+    "arm": "agent",
+    "expected": "import_rejection",
+    "wall_seconds": 14.437174656894058,
+    "agent_stop_reasons": [
+      "toolUse",
+      "toolUse",
+      "stop"
+    ],
+    "tool_errors": 1,
+    "event_count": 3,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": null,
+    "experiment_status": "rejected",
+    "runs": [],
+    "task": "T09",
+    "arm": "script",
+    "expected": "import_rejection",
+    "wall_seconds": 0.19597370130941272,
+    "agent_stop_reasons": [],
+    "tool_errors": 1,
+    "event_count": 2,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "8d14cdff9f1762596787ee5f44603fb95c8c5e5a76344ce390f36447c6c8899e",
+    "experiment_status": "failed",
+    "runs": [
+      {
+        "method": "golem",
+        "seed": 1,
+        "status": "failed",
+        "attempt": 1
+      }
+    ],
+    "task": "T10",
+    "arm": "agent",
+    "expected": "timeout",
+    "wall_seconds": 48.60381288733333,
+    "agent_stop_reasons": [
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "toolUse",
+      "stop"
+    ],
+    "tool_errors": 0,
+    "event_count": 9,
+    "runtime_error": null
+  },
+  {
+    "completed": true,
+    "protocol_correct": true,
+    "evidence_complete": true,
+    "dataset_checksum": "8d14cdff9f1762596787ee5f44603fb95c8c5e5a76344ce390f36447c6c8899e",
+    "experiment_status": "failed",
+    "runs": [
+      {
+        "method": "golem",
+        "seed": 1,
+        "status": "failed",
+        "attempt": 1
+      }
+    ],
+    "task": "T10",
+    "arm": "script",
+    "expected": "timeout",
+    "wall_seconds": 6.650279649998993,
+    "agent_stop_reasons": [],
+    "tool_errors": 0,
+    "event_count": 27,
+    "runtime_error": null
+  }
+]
